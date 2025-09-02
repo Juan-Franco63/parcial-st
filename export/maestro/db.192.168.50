@@ -1,0 +1,15 @@
+$TTL    604800
+@       IN      SOA     maestro.empresa.local. root.empresa.local. (
+                        2         ; Serial
+                        604800    ; Refresh
+                        86400     ; Retry
+                        2419200   ; Expire
+                        604800 )  ; Negative Cache TTL
+;
+        IN      NS      maestro.empresa.local.
+        IN      NS      esclavo.empresa.local.
+
+10      IN      PTR     maestro.empresa.local.
+11      IN      PTR     esclavo.empresa.local.
+12      IN      PTR     cliente.empresa.local.
+
