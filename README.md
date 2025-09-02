@@ -5,6 +5,9 @@ Dentro de este repositorio se encuentran los scripts del parcial 1, pedidos por 
 Los scripts se encuentran en la carpeta de EXPORT, divididos por maquina
 
 export
+
   /maestro
+
   /esclavo
+  
   /cliente
